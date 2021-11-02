@@ -4,6 +4,12 @@
     "integrationFolder": "specs",
     "pluginsFile": "plugins",
     "screenshotsFolder": "screenshots",
-    "supportFile": "support"
-
+    "supportFile": "support",
+    "reporter": "mocha-junit-reporter",
+    "reporterOptions": {
+        "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+        "testsuitesTitle": false
+    }
 }
+
+
